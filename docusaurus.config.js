@@ -6,20 +6,20 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'iiNotes',
+  tagline: 'A non-profit free online university for the inquisitive',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://iinotes.org/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'iiNotes', // Usually your GitHub org/user name.
+  projectName: 'iiNotes', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -42,14 +42,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/kazisean/iinotes_v1/tree/main',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/kazisean/iinotes_v1/tree/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -62,37 +62,80 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/iiNotes_ogBanner.png',
       navbar: {
-        title: 'My Site',
+        title: 'iiNotes',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'iiNotes Logo',
+          src: 'img/iiNotes_Logo.png',
+          
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
+            label: 'All Courses',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            to: '/blog', 
+            label: 'Blog', 
+            position: 'right'},
+          {
+            href: 'https://github.com/kazisean/iinotes_v1/tree/main',
             label: 'GitHub',
             position: 'right',
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
-            title: 'Docs',
+            title: 'Company',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'About Us',
+                to: 'about',
+              },
+              {
+                label: 'Meet the Team',
+                to: 'about',
+              },
+              {
+                label: 'Press',
+                to: 'about',
+              },
+              {
+                label: 'Donation',
+                to: 'about',
+              },
+              {
+                label: 'Help Center',
+                to: 'about',
+              },
+            ],
+          },
+          {
+            title: 'Terms',
+            items: [
+              {
+                label: 'Privacy policy',
+                to: '#',
+              },
+              {
+                label: 'Terms of service',
+                to: '#',
+              },
+              {
+                label: 'Cookie policy',
+                to: '#',
               },
             ],
           },
@@ -100,34 +143,21 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'How to Contribute',
+                href: '#',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: '#',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'YouTube',
+                href: 'https://www.youtube.com/channel/UCDmSzgMcJTJlICegAV4ORxA',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} iiNotes`,
       },
       prism: {
         theme: lightCodeTheme,
