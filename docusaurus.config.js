@@ -153,7 +153,7 @@ const config = {
           // },
 
 
-          
+          /*
 
             {
               to: '/friends', 
@@ -182,7 +182,8 @@ const config = {
                       to: '/friends', 
                       label: 'Skills', 
                       position: 'left'},
-  
+                      
+                      */
 
 
 
