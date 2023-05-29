@@ -119,18 +119,41 @@ const config = {
             position: 'left',
             label: 'All Courses',
           },
+
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            type: 'dropdown',
+            label: 'Mathematics',
             position: 'left',
-            label: 'Tutorial',
+            items: [
+
+
+
+
+              {
+                type: 'docSidebar',
+                label: 'Calculus',
+                sidebarId: 'calcSideBar',
+              },
+              
+              // ... more items
+
+
+
+            ],
           },
 
 
-          {
-            to: '/friends', 
-            label: 'Mathematics', 
-            position: 'left'},
+
+          
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'tutorialSidebar',
+          //   position: 'left',
+          //   label: 'Tutorial',
+          // },
+
+
+          
 
             {
               to: '/friends', 
