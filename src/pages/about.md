@@ -4,6 +4,8 @@ description: iiNotes is an open-source free learning environment for various sub
 hide_table_of_contents: true
 ---
 
+
+
 <center><h1>A non-profit free online university for the inquisitive</h1></center>
 
 Hello and welcome to iiNotes. A place where you can find various courses and guides from the Sciences, Philosophies, and Histories to even religious studies. This place is ever-growing, and new subjects are being added every day. If you would like to contribute to any subject/topic that you are interested in, please do so by creating a [pull request ](https://github.com/kazisean/iinotes_v1/pulls). If you see a mistake in any guide, please click "edit this page" at the bottom to make a change. This is an open-source project, and every guide is thanks to all the contributors who spent hours of their precious time. 

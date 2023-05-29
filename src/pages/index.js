@@ -30,8 +30,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Welcome ${siteConfig.title}`}
+      description="iNotes is an open-source free learning environment for various subjects. With Self- Learning guides following similar curriculum from universities like MIT, Stanford and NYU.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

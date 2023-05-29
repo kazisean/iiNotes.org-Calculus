@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'iiNotes',
+  title: 'iiNotes | Self-guided learning made easy',
   tagline: 'A non-profit free online university for the inquisitive',
   favicon: 'img/favicon.ico',
 
@@ -33,9 +33,12 @@ const config = {
   },
 
   presets: [
+
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
+      
+
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
@@ -43,6 +46,10 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/kazisean/iinotes_v1/tree/main',
+        },
+        gtag: {
+          trackingID: "G-W96Q37RCQF",
+          anonymizeIP: true,
         },
         blog: {
           showReadingTime: true,
@@ -54,13 +61,48 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        sitemap: {
+          changefreq: 'daily',
+          priority: 0.5,
+          filename: 'sitemap.xml',
+        },
       }),
     ],
   ],
 
+
+
+
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    
+    
     ({
+
+      // meta data seo
+
+      metadata: [
+        { name: 'author', content: 'iiNotes' },
+        { name: 'msvalidate.01', content: '948B64EA9A379E64FA7CC35E52BCDE60' },
+        { name: 'tags', content: 'iiNotes, Self Learning Guide, Calculus Notes, Learn Calculus, iiNotes Self Guided Lessons' },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:url', content: 'https://iinotes.org' },
+        { property: 'og:site_name', content: 'iiNotes' },
+        { property: 'og:site_name', content: 'iiNotes' },
+        { property: 'twitter:image', content: 'https://iinotes.org/img/iiNotes_ogBanner.png' },
+        { property: 'twitter:card', content: 'summary' },
+        { property: 'twitter:title', content: 'iiNotes | Self-guided learning made easy' },
+        { itemprop: 'name', content: 'iiNotes | Self-guided learning made easy' },
+        { itemprop: 'description', content: 'iiNotes is an open-source free learning environment for various subjects. With Self- Learning guides following similar curriculum from universities like MIT, Stanford and NYU.' },
+        { itemprop: 'url', content: 'https://iinotes.org' },
+        { itemprop: 'logo', content: 'https://iinotes.org/img/iiNotes_Logo.png' },
+        { itemprop: 'sameAs', content: 'https://github.com/iiNotes/' },
+        { itemprop: 'sameAs', content: 'https://www.youtube.com/channel/UCDmSzgMcJTJlICegAV4ORxA' },
+
+      
+      ],
+
       // Replace with your project's social card
       image: 'img/iiNotes_ogBanner.png',
       navbar: {
@@ -87,11 +129,11 @@ const config = {
             to: '/blog', 
             label: 'Blog', 
             position: 'right'},
-          {
-            href: 'https://github.com/kazisean/iinotes_v1/tree/main',
-            label: 'GitHub',
-            position: 'right',
-          },
+          // {
+          //   href: 'https://github.com/kazisean/iinotes_v1/tree/main',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {
@@ -163,6 +205,10 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+
+      
+  
+
     }),
 };
 
