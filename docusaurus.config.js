@@ -80,6 +80,7 @@ const config = {
     
     ({
 
+
       // meta data seo
 
       metadata: [
@@ -129,11 +130,12 @@ const config = {
             to: '/blog', 
             label: 'Blog', 
             position: 'right'},
-          // {
-          //   href: 'https://github.com/kazisean/iinotes_v1/tree/main',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
+          {
+          href: "https://github.com/iiNotes/iiNotes_base",
+          position: "right",
+          className: "header-github-link",
+          "aria-label": "GitHub repository",
+          },
         ],
       },
       footer: {
