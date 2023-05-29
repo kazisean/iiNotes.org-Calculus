@@ -125,10 +125,57 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
+
+
+          {
+            to: '/friends', 
+            label: 'Mathematics', 
+            position: 'left'},
+
+            {
+              to: '/friends', 
+              label: 'Sciences', 
+              position: 'left'},
+
+          {
+            to: '/friends', 
+            label: 'Engineering', 
+            position: 'left'},
+          
+
+
+              {
+                to: '/friends', 
+                label: 'Philosophies', 
+                position: 'left'},
+
+
+                  {
+                    to: '/friends', 
+                    label: 'Humanities', 
+                    position: 'left'},
+
+                    {
+                      to: '/friends', 
+                      label: 'Skills', 
+                      position: 'left'},
+  
+
+
+
+
+
+
+                    {
+                      to: '/friends', 
+                      label: 'Friends', 
+                      position: 'right'},
+
           {
             to: '/blog', 
             label: 'Blog', 
             position: 'right'},
+      
           {
           href: "https://github.com/iiNotes/iiNotes_base",
           position: "right",
