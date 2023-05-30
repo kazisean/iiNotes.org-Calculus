@@ -43,7 +43,7 @@ export default function NotFound() {
               </p>
 
 
-              <h2><a href="courses">← Back to Studying</a></h2>
+              <h2><a href="https://iinotes.org/courses">← Back to Studying</a></h2>
 
 
             </div>
