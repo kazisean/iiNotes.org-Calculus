@@ -16,7 +16,7 @@ export default function NotFound() {
         <main className="container margin-vert--xl">
           <div className="row">
             <div className="col col--6 col--offset-3">
-              <img src="img/404_cat.gif" alt="iiNotes 404 Not Found Cats Looking Gif" />
+              <img src="https://github.com/kazisean/iinotes_v1/blob/main/static/img/404_cat.gif?raw=true" alt="iiNotes 404 Not Found Cats Looking Gif" />
               <h1 className="hero__title">
                 <Translate
                   id="theme.NotFound.title"
