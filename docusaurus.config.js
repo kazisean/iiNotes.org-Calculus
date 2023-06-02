@@ -117,12 +117,12 @@ const config = {
           {
             to: 'courses',
             position: 'left',
-            label: 'All Courses',
+            label: '📰 All Courses',
           },
 
           {
             type: 'dropdown',
-            label: 'Mathematics',
+            label: '🧮 Mathematics',
             position: 'left',
             items: [
 
