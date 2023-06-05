@@ -218,10 +218,10 @@ const config = {
                 label: 'About Us',
                 to: 'about',
               },
-              {
-                label: 'Meet the Team',
-                to: 'about',
-              },
+              // {
+              //   label: 'Meet the Team',
+              //   to: 'about',
+              // },
               {
                 label: 'Press',
                 to: 'about',
