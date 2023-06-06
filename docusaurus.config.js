@@ -196,7 +196,7 @@ const config = {
                       position: 'right'},
 
           {
-            to: '/blog', 
+            href: '#', 
             label: 'Blog', 
             position: 'right'},
       
@@ -232,7 +232,7 @@ const config = {
               },
               {
                 label: 'Help Center',
-                to: 'about',
+                to: 'help-center',
               },
             ],
           },
@@ -256,6 +256,10 @@ const config = {
           {
             title: 'Community',
             items: [
+              {
+                label: 'Updates',
+                to: '/blog',
+              },
               {
                 label: 'How to Contribute',
                 href: '#',
