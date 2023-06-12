@@ -22,6 +22,9 @@
   height: 32px;
 }
 
+
+
+
 @media screen and (max-width: 405px) {
   :global(.navbar__item.header-github-link) {
     display: none;
